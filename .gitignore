@@ -1,0 +1,111 @@
+# ==================
+# Xcode
+# ==================
+
+# Build artifacts
+build/
+DerivedData/
+*.o
+*.hmap
+
+# User-specific Xcode files
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# Xcode Scheme files (keep shared schemes, ignore user-specific ones)
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Playground intermediates
+timeline.xctimeline
+playground.xcworkspace
+
+# ==================
+# Swift Package Manager
+# ==================
+
+.build/
+.swiftpm/
+*.resolved
+
+# Uncomment to ignore Package.resolved (not recommended for apps)
+# Package.resolved
+
+# ==================
+# CocoaPods
+# ==================
+
+Pods/
+*.xcworkspace
+!default.xcworkspace
+
+# Podfile.lock should be committed for apps, not libraries
+# Uncomment the line below if this is a library:
+# Podfile.lock
+
+# ==================
+# Carthage
+# ==================
+
+Carthage/Build/
+Carthage/Checkouts/
+
+# ==================
+# Fastlane
+# ==================
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# ==================
+# macOS
+# ==================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# ==================
+# TestFlight / Archives
+# ==================
+
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ==================
+# Environment & Secrets
+# ==================
+
+.env
+.env.*
+Secrets.swift
+GoogleService-Info.plist
+Secrets.plist
+
+# ==================
+# Editor & IDE
+# ==================
+
+# VS Code / Cursor
+.vscode/
+.cursor/
+
+# JetBrains
+.idea/
+
+# ==================
+# Coverage & Test Reports
+# ==================
+
+*.gcda
+*.gcno
+coverage/
+*.coverage
